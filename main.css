@@ -26,7 +26,8 @@ header {
     margin: 18px;
     font-size: 20px;
 }
-.container nav li a {
+.container nav li a,
+.social-links li a {
     color:  rgb(81, 37, 37);
     text-decoration: none;
 }
