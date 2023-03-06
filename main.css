@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, 
+section h2,
+section h3 {
+    font-family: 'Gloock', serif;
+}
+
+body, input, textarea {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    padding: 32px 0;
+    background-color: blanchedalmond;
+    color: rgb(81, 37, 37);
+    font-size: 32px;
+}
+
+.container nav li {
+    display: inline ;
+    margin: 18px;
+    font-size: 20px;
+}
+.container nav li a {
+    color:  rgb(81, 37, 37);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h2 {
+    margin-bottom: 24px;
+    color: rgb(81, 37, 37);
+    font-size: 32px;
+}
+
+.brands-list img {
+    height: 28px;
+}
+
+.brands-list li {
+    display: inline;
+    margin: 18px;   
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px;
+}
+
+section {
+    color: rgb(81, 37, 37);
+}
+
+section p {
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+
+.photo-bailarina {
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 28px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.social-links li {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.social-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    height: 38px;
+    font-size: 24px;
+}
+
+form button {
+    background-color: blanchedalmond;
+    color: rgb(81, 37, 37);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f4d3b3;
+}
+
+input:focus, textarea:focus {
+    outline-color: blanchedalmond;
+}
+
+footer {
+    background-color: blanchedalmond;
+    color:rgb(81, 37, 37);
+    padding: 32px 0;
+    font-size: 24px;
+}
